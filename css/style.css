@@ -77,20 +77,25 @@ a {
 /* GENERAL STYLES */
 
 body {
-  max-width: 23.4375rem;
+  max-width: 27.4375rem;
+  height: 7.5rem;
   background-color: var(--slate-300);
 }
 
 .card {
   width: 20rem;
   height: 31.1875rem;
-  border: 2px solid red;
+  border: none;
+  border-radius: 0.625rem;
+  background-color: var(--white);
   padding: 1rem 1rem 2.5rem 1rem;
+  margin: 0 auto;
 }
 
 .card-image {
   width: 18rem;
   height: 18rem;
+  margin-bottom: 1rem;
 }
 
 .card-image img {
@@ -101,10 +106,28 @@ body {
   width: 18rem;
   height: 8.1875rem;
   padding: 0 1rem 0 1rem;
+  margin-top: 1.5rem;
 }
 
-p {
+.card-content h1 {
+  width: 16rem;
+  height: 3.25rem;
+  font-family: var(--font-outfit);
+  font-size: 1.375rem;
+  font-weight: var(--font-bold);
+  color: var(--slate-900);
+  text-align: center;
+}
+
+.card-content p {
   font-size: 0.9375rem;
+  font-family: var(--font-outfit);
+  font-weight: var(--font-reg);
+  color: var(--slate-500);
+  text-align: center;
+  width: 16rem;
+  height: 3.9375rem;
+  margin-top: 1rem;
 }
 
 .attribution {
@@ -113,4 +136,7 @@ p {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 90rem) {
 }
