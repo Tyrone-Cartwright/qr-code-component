@@ -76,6 +76,33 @@ a {
 
 /* GENERAL STYLES */
 
+body {
+  max-width: 23.4375rem;
+  background-color: var(--slate-300);
+}
+
+.card {
+  width: 20rem;
+  height: 31.1875rem;
+  border: 2px solid red;
+  padding: 1rem 1rem 2.5rem 1rem;
+}
+
+.card-image {
+  width: 18rem;
+  height: 18rem;
+}
+
+.card-image img {
+  border-radius: 1.6rem;
+}
+
+.card-content {
+  width: 18rem;
+  height: 8.1875rem;
+  padding: 0 1rem 0 1rem;
+}
+
 p {
   font-size: 0.9375rem;
 }
