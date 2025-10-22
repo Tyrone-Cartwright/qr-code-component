@@ -1,3 +1,75 @@
+/* BASIC RESET STYLES */
+
+/* Universal box-sizing */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Remove default margins and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Removes extra space below images */
+}
+
+/* Reset form element styles */
+input,
+button,
+textarea,
+select {
+  font: inherit; /* Inherit font styles from parent */
+}
+
+/* Remove text decoration from links */
+a {
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent */
+}
+
+/* END BASIC RESET STYLES */
+
+/* ADDITIONAL STYLES */
+
+/* COLOR STYLES */
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
