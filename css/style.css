@@ -77,8 +77,6 @@ a {
 /* GENERAL STYLES */
 
 body {
-  max-width: 27.4375rem;
-  height: 7.5rem;
   background-color: var(--slate-300);
 }
 
@@ -139,4 +137,13 @@ body {
 }
 
 @media (min-width: 90rem) {
+  body {
+    width: 90rem;
+    height: 60rem;
+  }
+
+  .card {
+    max-width: 20rem;
+    height: 31.1875rem;
+  }
 }
