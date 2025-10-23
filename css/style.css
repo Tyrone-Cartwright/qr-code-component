@@ -145,5 +145,6 @@ body {
   .card {
     max-width: 20rem;
     height: 31.1875rem;
+    margin: 14.40625rem 35rem 14.40625rem 35rem;
   }
 }
