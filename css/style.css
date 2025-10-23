@@ -133,7 +133,7 @@ body {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--slate-900);
 }
 
 @media (min-width: 90rem) {
